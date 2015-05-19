@@ -7,7 +7,13 @@
 //
 
 #import "MgSettingCell.h"
-#import "MgSettingItem.h"
+#import "MgSettingArrowItem.h"
+#import "MgSettingSwitchItem.h"
+
+@interface MgSettingCell()
+
+
+@end
 
 @implementation MgSettingCell
 
@@ -29,6 +35,30 @@
 - (void)setItem:(MgSettingItem *)item
 {
     _item = item;
+    
+    // 1.设置数据
+    [self setupData];
+    
+    // 2.设置右边的内容
+    [self setupRightContent];
+}
+
+// 设置右边的内容
+-(void)setupRightContent
+{
+    //
+    if ([self.item isKindOfClass:[MgSettingArrowItem class]]) { // 箭头
+        self.accessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"CellArrow"]];
+    } else if ([self.item isKindOfClass:[MgSettingSwitchItem class]]) { // 开关
+        self.accessoryView = [[UISwitch alloc] init];
+    } else {
+        self.accessoryView = nil;
+    }
+}
+
+// 设置数据
+-(void)setupData
+{
     self.imageView.image = [UIImage imageNamed:_item.icon];
     self.textLabel.text = _item.title;
 }

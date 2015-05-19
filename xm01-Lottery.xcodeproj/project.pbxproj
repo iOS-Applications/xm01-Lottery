@@ -16,6 +16,8 @@
 		BFA318CB1B097EF200FFCCD3 /* MgPushNoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA318CA1B097EF200FFCCD3 /* MgPushNoticeViewController.m */; };
 		BFA318CE1B09E42D00FFCCD3 /* MgSettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA318CD1B09E42D00FFCCD3 /* MgSettingGroup.m */; };
 		BFA318D21B09E6B900FFCCD3 /* MgSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA318D11B09E6B900FFCCD3 /* MgSettingCell.m */; };
+		BFA318D81B0ADFBE00FFCCD3 /* MgSettingArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA318D71B0ADFBE00FFCCD3 /* MgSettingArrowItem.m */; };
+		BFA318DB1B0ADFE000FFCCD3 /* MgSettingSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA318DA1B0ADFE000FFCCD3 /* MgSettingSwitchItem.m */; };
 		BFD4BF551AE73BD7005E72A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD4BF541AE73BD7005E72A2 /* main.m */; };
 		BFD4BF581AE73BD8005E72A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD4BF571AE73BD8005E72A2 /* AppDelegate.m */; };
 		BFD4BF5B1AE73BD8005E72A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD4BF5A1AE73BD8005E72A2 /* ViewController.m */; };
@@ -60,6 +62,10 @@
 		BFA318CD1B09E42D00FFCCD3 /* MgSettingGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgSettingGroup.m; sourceTree = "<group>"; };
 		BFA318D01B09E6B900FFCCD3 /* MgSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MgSettingCell.h; sourceTree = "<group>"; };
 		BFA318D11B09E6B900FFCCD3 /* MgSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgSettingCell.m; sourceTree = "<group>"; };
+		BFA318D61B0ADFBE00FFCCD3 /* MgSettingArrowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MgSettingArrowItem.h; sourceTree = "<group>"; };
+		BFA318D71B0ADFBE00FFCCD3 /* MgSettingArrowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgSettingArrowItem.m; sourceTree = "<group>"; };
+		BFA318D91B0ADFE000FFCCD3 /* MgSettingSwitchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MgSettingSwitchItem.h; sourceTree = "<group>"; };
+		BFA318DA1B0ADFE000FFCCD3 /* MgSettingSwitchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgSettingSwitchItem.m; sourceTree = "<group>"; };
 		BFD4BF4F1AE73BD7005E72A2 /* xm01-Lottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xm01-Lottery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD4BF541AE73BD7005E72A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BFD4BF561AE73BD7005E72A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -178,6 +184,10 @@
 			children = (
 				BFA318C61B0973D600FFCCD3 /* MgSettingItem.h */,
 				BFA318C71B0973D600FFCCD3 /* MgSettingItem.m */,
+				BFA318D61B0ADFBE00FFCCD3 /* MgSettingArrowItem.h */,
+				BFA318D71B0ADFBE00FFCCD3 /* MgSettingArrowItem.m */,
+				BFA318D91B0ADFE000FFCCD3 /* MgSettingSwitchItem.h */,
+				BFA318DA1B0ADFE000FFCCD3 /* MgSettingSwitchItem.m */,
 				BFA318CC1B09E42D00FFCCD3 /* MgSettingGroup.h */,
 				BFA318CD1B09E42D00FFCCD3 /* MgSettingGroup.m */,
 			);
@@ -461,6 +471,7 @@
 				BF4BF6341AECD623007B0B84 /* MuLoginViewController.m in Sources */,
 				BFD4BF881AE742BF005E72A2 /* MuTabBarController.m in Sources */,
 				BFA318CE1B09E42D00FFCCD3 /* MgSettingGroup.m in Sources */,
+				BFA318DB1B0ADFE000FFCCD3 /* MgSettingSwitchItem.m in Sources */,
 				BF4BF6281AEBE815007B0B84 /* MuTitleButton.m in Sources */,
 				BFA318C81B0973D600FFCCD3 /* MgSettingItem.m in Sources */,
 				BFD4BF5B1AE73BD8005E72A2 /* ViewController.m in Sources */,
@@ -469,6 +480,7 @@
 				BFD4BF551AE73BD7005E72A2 /* main.m in Sources */,
 				BFD4BF841AE74249005E72A2 /* MuTabBar.m in Sources */,
 				BFA318D21B09E6B900FFCCD3 /* MgSettingCell.m in Sources */,
+				BFA318D81B0ADFBE00FFCCD3 /* MgSettingArrowItem.m in Sources */,
 				BF4BF63A1AECDB20007B0B84 /* UIImage+Extension.m in Sources */,
 				BFD4BF8B1AE77BE0005E72A2 /* MuTabBarButton.m in Sources */,
 				BFA318C31AF7755B00FFCCD3 /* MgSettingViewController.m in Sources */,

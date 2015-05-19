@@ -7,7 +7,8 @@
 //
 
 #import "MgSettingViewController.h"
-#import "MgSettingItem.h"
+#import "MgSettingArrowItem.h"
+#import "MgSettingSwitchItem.h"
 #import "MgSettingGroup.h"
 #import "MgPushNoticeViewController.h"
 #import "MgSettingCell.h"
@@ -27,22 +28,23 @@
         _data = [NSMutableArray array];
         // 0组
         MgSettingGroup *group0 = [[MgSettingGroup alloc] init];
-        MgSettingItem *item00 = [MgSettingItem itemWithIcon:@"MorePush" title:@"推送和提醒" destVcClass:[MgPushNoticeViewController class]];
-        MgSettingItem *item01 = [MgSettingItem itemWithIcon:@"MorePush" title:@"推送和提醒" destVcClass:[MgPushNoticeViewController class]];
-        group0.items = @[item00, item01];
-        group0.header = @"haha";
-        group0.footer = @"这是第一组";
+        MgSettingItem *MorePush = [MgSettingArrowItem itemWithIcon:@"MorePush" title:@"推送和提醒" destVcClass:[MgPushNoticeViewController class]];
+        MgSettingItem *handShake = [MgSettingSwitchItem itemWithIcon:@"handShake" title:@"摇一摇机选" destVcClass:[MgPushNoticeViewController class]];
+        MgSettingItem *soundEffect = [MgSettingSwitchItem itemWithIcon:@"sound_Effect" title:@"声音效果" destVcClass:[MgPushNoticeViewController class]];
+        group0.items = @[MorePush, handShake, soundEffect];
+//        group0.header = @"haha";
+//        group0.footer = @"这是第一组";
         
         [_data addObject:group0];
         
         // 1组
         MgSettingGroup *group1 = [[MgSettingGroup alloc] init];
-        MgSettingItem *item10 = [MgSettingItem itemWithIcon:@"MorePush" title:@"推送和提醒" destVcClass:[MgPushNoticeViewController class]];
-        group1.items = @[item00, item10];
-        group1.header = @"enene";
-        group1.footer = @"这是第二组";
+        MgSettingItem *MoreUpdate = [MgSettingArrowItem itemWithIcon:@"MoreUpdate" title:@"检查新版本" destVcClass:[MgPushNoticeViewController class]];
+        MgSettingItem *MoreHelp = [MgSettingArrowItem itemWithIcon:@"MoreHelp" title:@"帮助" destVcClass:[MgPushNoticeViewController class]];
+        group1.items = @[MoreUpdate, MoreHelp];
+//        group1.header = @"enene";
+//        group1.footer = @"这是第二组";
         [_data addObject:group1];
-
     }
     return _data;
 }
@@ -73,12 +75,12 @@
 {
     // 1、创建cell
     MgSettingCell *cell = [MgSettingCell cellWithTableView:tableView];
+    
     // 2、给cell传递模型数据
-//    MgSettingItem *item = self.data[indexPath.section][indexPath.row];
     MgSettingGroup *group = self.data[indexPath.section];
     MgSettingItem *item = group.items[indexPath.row];
-    
     cell.item = item;
+    
     // 3、返回cell
     return cell;
 }
