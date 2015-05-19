@@ -30,12 +30,17 @@
         MgSettingItem *item00 = [MgSettingItem itemWithIcon:@"MorePush" title:@"推送和提醒" destVcClass:[MgPushNoticeViewController class]];
         MgSettingItem *item01 = [MgSettingItem itemWithIcon:@"MorePush" title:@"推送和提醒" destVcClass:[MgPushNoticeViewController class]];
         group0.items = @[item00, item01];
+        group0.header = @"haha";
+        group0.footer = @"这是第一组";
+        
         [_data addObject:group0];
         
         // 1组
         MgSettingGroup *group1 = [[MgSettingGroup alloc] init];
         MgSettingItem *item10 = [MgSettingItem itemWithIcon:@"MorePush" title:@"推送和提醒" destVcClass:[MgPushNoticeViewController class]];
-        group1.items = @[item10];
+        group1.items = @[item00, item10];
+        group1.header = @"enene";
+        group1.footer = @"这是第二组";
         [_data addObject:group1];
 
     }
@@ -84,6 +89,18 @@
     MgSettingItem *item = group.items[indexPath.row];
     UIViewController *vc = [[item.destVcClass alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    MgSettingGroup *group = self.data[section];
+    return group.header;
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section
+{
+    MgSettingGroup *group = self.data[section];
+    return group.footer;
 }
 @end
 
