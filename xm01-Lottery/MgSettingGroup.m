@@ -10,6 +10,4 @@
 
 @implementation MgSettingGroup
 // 头部标题
-
-
 @end

@@ -10,4 +10,10 @@
 
 @implementation MgSettingArrowItem
 
++(instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title destVcClass:(Class)destVcClass
+{
+    MgSettingArrowItem *item = [super itemWithIcon:icon title:title];
+    item.destVcClass = destVcClass;
+    return item;
+}
 @end

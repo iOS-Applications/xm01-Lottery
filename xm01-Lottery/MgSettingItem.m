@@ -10,12 +10,12 @@
 
 @implementation MgSettingItem
 
-+ (instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title destVcClass:(Class)destVcClass
++ (instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title
 {
     MgSettingItem *item = [[self alloc] init];
     item.icon = icon;
     item.title= title;
-    item.destVcClass = destVcClass;
+//    item.destVcClass = destVcClass;
     
     return item;
 }
