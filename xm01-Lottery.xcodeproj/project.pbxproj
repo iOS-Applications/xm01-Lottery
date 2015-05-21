@@ -18,6 +18,20 @@
 		BFA318D21B09E6B900FFCCD3 /* MgSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA318D11B09E6B900FFCCD3 /* MgSettingCell.m */; };
 		BFA318D81B0ADFBE00FFCCD3 /* MgSettingArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA318D71B0ADFBE00FFCCD3 /* MgSettingArrowItem.m */; };
 		BFA318DB1B0ADFE000FFCCD3 /* MgSettingSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA318DA1B0ADFE000FFCCD3 /* MgSettingSwitchItem.m */; };
+		BFA318E21B0C877000FFCCD3 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA318DE1B0C877000FFCCD3 /* MBProgressHUD+MJ.m */; };
+		BFA318E31B0C877000FFCCD3 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BFA318DF1B0C877000FFCCD3 /* MBProgressHUD.bundle */; };
+		BFA318E41B0C877000FFCCD3 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA318E11B0C877000FFCCD3 /* MBProgressHUD.m */; };
+		BFA318E71B0CD3B200FFCCD3 /* MgProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA318E61B0CD3B200FFCCD3 /* MgProductViewController.m */; };
+		BFA318ED1B0CDAA900FFCCD3 /* MgProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA318EC1B0CDAA900FFCCD3 /* MgProduct.m */; };
+		BFA318F01B0CE10E00FFCCD3 /* MgProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA318EF1B0CE10E00FFCCD3 /* MgProductCell.m */; };
+		BFA318F21B0CE18300FFCCD3 /* MgProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFA318F11B0CE18300FFCCD3 /* MgProductCell.xib */; };
+		BFA318F41B0CE64B00FFCCD3 /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = BFA318F31B0CE64B00FFCCD3 /* products.json */; };
+		BFA318F61B0D728400FFCCD3 /* product_2.json in Resources */ = {isa = PBXBuildFile; fileRef = BFA318F51B0D728400FFCCD3 /* product_2.json */; };
+		BFA318FD1B0DC50600FFCCD3 /* MgBaseSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA318FC1B0DC50600FFCCD3 /* MgBaseSettingViewController.m */; };
+		BFA319001B0DCC5A00FFCCD3 /* MgAwardPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA318FF1B0DCC5A00FFCCD3 /* MgAwardPushViewController.m */; };
+		BFA319031B0DCFB600FFCCD3 /* MgAwardAnimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA319021B0DCFB600FFCCD3 /* MgAwardAnimViewController.m */; };
+		BFA319061B0DD26500FFCCD3 /* MgSettingLabelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA319051B0DD26500FFCCD3 /* MgSettingLabelItem.m */; };
+		BFA319091B0DD4C200FFCCD3 /* MgScoreTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA319081B0DD4C200FFCCD3 /* MgScoreTimeViewController.m */; };
 		BFD4BF551AE73BD7005E72A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD4BF541AE73BD7005E72A2 /* main.m */; };
 		BFD4BF581AE73BD8005E72A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD4BF571AE73BD8005E72A2 /* AppDelegate.m */; };
 		BFD4BF5B1AE73BD8005E72A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD4BF5A1AE73BD8005E72A2 /* ViewController.m */; };
@@ -66,6 +80,30 @@
 		BFA318D71B0ADFBE00FFCCD3 /* MgSettingArrowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgSettingArrowItem.m; sourceTree = "<group>"; };
 		BFA318D91B0ADFE000FFCCD3 /* MgSettingSwitchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MgSettingSwitchItem.h; sourceTree = "<group>"; };
 		BFA318DA1B0ADFE000FFCCD3 /* MgSettingSwitchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgSettingSwitchItem.m; sourceTree = "<group>"; };
+		BFA318DD1B0C877000FFCCD3 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		BFA318DE1B0C877000FFCCD3 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		BFA318DF1B0C877000FFCCD3 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		BFA318E01B0C877000FFCCD3 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		BFA318E11B0C877000FFCCD3 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		BFA318E51B0CD3B200FFCCD3 /* MgProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MgProductViewController.h; sourceTree = "<group>"; };
+		BFA318E61B0CD3B200FFCCD3 /* MgProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgProductViewController.m; sourceTree = "<group>"; };
+		BFA318EB1B0CDAA900FFCCD3 /* MgProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MgProduct.h; sourceTree = "<group>"; };
+		BFA318EC1B0CDAA900FFCCD3 /* MgProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgProduct.m; sourceTree = "<group>"; };
+		BFA318EE1B0CE10E00FFCCD3 /* MgProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MgProductCell.h; sourceTree = "<group>"; };
+		BFA318EF1B0CE10E00FFCCD3 /* MgProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgProductCell.m; sourceTree = "<group>"; };
+		BFA318F11B0CE18300FFCCD3 /* MgProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MgProductCell.xib; sourceTree = "<group>"; };
+		BFA318F31B0CE64B00FFCCD3 /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
+		BFA318F51B0D728400FFCCD3 /* product_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product_2.json; sourceTree = "<group>"; };
+		BFA318FB1B0DC50600FFCCD3 /* MgBaseSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MgBaseSettingViewController.h; sourceTree = "<group>"; };
+		BFA318FC1B0DC50600FFCCD3 /* MgBaseSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgBaseSettingViewController.m; sourceTree = "<group>"; };
+		BFA318FE1B0DCC5A00FFCCD3 /* MgAwardPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MgAwardPushViewController.h; sourceTree = "<group>"; };
+		BFA318FF1B0DCC5A00FFCCD3 /* MgAwardPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgAwardPushViewController.m; sourceTree = "<group>"; };
+		BFA319011B0DCFB600FFCCD3 /* MgAwardAnimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MgAwardAnimViewController.h; sourceTree = "<group>"; };
+		BFA319021B0DCFB600FFCCD3 /* MgAwardAnimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgAwardAnimViewController.m; sourceTree = "<group>"; };
+		BFA319041B0DD26500FFCCD3 /* MgSettingLabelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MgSettingLabelItem.h; sourceTree = "<group>"; };
+		BFA319051B0DD26500FFCCD3 /* MgSettingLabelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgSettingLabelItem.m; sourceTree = "<group>"; };
+		BFA319071B0DD4C200FFCCD3 /* MgScoreTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MgScoreTimeViewController.h; sourceTree = "<group>"; };
+		BFA319081B0DD4C200FFCCD3 /* MgScoreTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgScoreTimeViewController.m; sourceTree = "<group>"; };
 		BFD4BF4F1AE73BD7005E72A2 /* xm01-Lottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xm01-Lottery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD4BF541AE73BD7005E72A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BFD4BF561AE73BD7005E72A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -171,15 +209,48 @@
 		BFA318C01AF7752500FFCCD3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BFA318FA1B0DBFB900FFCCD3 /* Product */,
+				BFA318F91B0DBFB000FFCCD3 /* Push */,
 				BFA318C11AF7755B00FFCCD3 /* MgSettingViewController.h */,
 				BFA318C21AF7755B00FFCCD3 /* MgSettingViewController.m */,
-				BFA318C91B097EF200FFCCD3 /* MgPushNoticeViewController.h */,
-				BFA318CA1B097EF200FFCCD3 /* MgPushNoticeViewController.m */,
+				BFA318FB1B0DC50600FFCCD3 /* MgBaseSettingViewController.h */,
+				BFA318FC1B0DC50600FFCCD3 /* MgBaseSettingViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
 		};
 		BFA318C51B09739D00FFCCD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFA318E81B0CDA6700FFCCD3 /* Item */,
+				BFA318E91B0CDA7700FFCCD3 /* Group */,
+				BFA318EA1B0CDA8B00FFCCD3 /* Product */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BFA318CF1B09E69900FFCCD3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFA318F81B0DBFA500FFCCD3 /* Item */,
+				BFA318F71B0DBF9800FFCCD3 /* Product */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BFA318DC1B0C877000FFCCD3 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BFA318DD1B0C877000FFCCD3 /* MBProgressHUD+MJ.h */,
+				BFA318DE1B0C877000FFCCD3 /* MBProgressHUD+MJ.m */,
+				BFA318DF1B0C877000FFCCD3 /* MBProgressHUD.bundle */,
+				BFA318E01B0C877000FFCCD3 /* MBProgressHUD.h */,
+				BFA318E11B0C877000FFCCD3 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		BFA318E81B0CDA6700FFCCD3 /* Item */ = {
 			isa = PBXGroup;
 			children = (
 				BFA318C61B0973D600FFCCD3 /* MgSettingItem.h */,
@@ -188,19 +259,71 @@
 				BFA318D71B0ADFBE00FFCCD3 /* MgSettingArrowItem.m */,
 				BFA318D91B0ADFE000FFCCD3 /* MgSettingSwitchItem.h */,
 				BFA318DA1B0ADFE000FFCCD3 /* MgSettingSwitchItem.m */,
+				BFA319041B0DD26500FFCCD3 /* MgSettingLabelItem.h */,
+				BFA319051B0DD26500FFCCD3 /* MgSettingLabelItem.m */,
+			);
+			name = Item;
+			sourceTree = "<group>";
+		};
+		BFA318E91B0CDA7700FFCCD3 /* Group */ = {
+			isa = PBXGroup;
+			children = (
 				BFA318CC1B09E42D00FFCCD3 /* MgSettingGroup.h */,
 				BFA318CD1B09E42D00FFCCD3 /* MgSettingGroup.m */,
 			);
-			name = Model;
+			name = Group;
 			sourceTree = "<group>";
 		};
-		BFA318CF1B09E69900FFCCD3 /* View */ = {
+		BFA318EA1B0CDA8B00FFCCD3 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				BFA318EB1B0CDAA900FFCCD3 /* MgProduct.h */,
+				BFA318EC1B0CDAA900FFCCD3 /* MgProduct.m */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		BFA318F71B0DBF9800FFCCD3 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				BFA318EE1B0CE10E00FFCCD3 /* MgProductCell.h */,
+				BFA318EF1B0CE10E00FFCCD3 /* MgProductCell.m */,
+				BFA318F11B0CE18300FFCCD3 /* MgProductCell.xib */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		BFA318F81B0DBFA500FFCCD3 /* Item */ = {
 			isa = PBXGroup;
 			children = (
 				BFA318D01B09E6B900FFCCD3 /* MgSettingCell.h */,
 				BFA318D11B09E6B900FFCCD3 /* MgSettingCell.m */,
 			);
-			name = View;
+			name = Item;
+			sourceTree = "<group>";
+		};
+		BFA318F91B0DBFB000FFCCD3 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				BFA318C91B097EF200FFCCD3 /* MgPushNoticeViewController.h */,
+				BFA318CA1B097EF200FFCCD3 /* MgPushNoticeViewController.m */,
+				BFA318FE1B0DCC5A00FFCCD3 /* MgAwardPushViewController.h */,
+				BFA318FF1B0DCC5A00FFCCD3 /* MgAwardPushViewController.m */,
+				BFA319011B0DCFB600FFCCD3 /* MgAwardAnimViewController.h */,
+				BFA319021B0DCFB600FFCCD3 /* MgAwardAnimViewController.m */,
+				BFA319071B0DD4C200FFCCD3 /* MgScoreTimeViewController.h */,
+				BFA319081B0DD4C200FFCCD3 /* MgScoreTimeViewController.m */,
+			);
+			name = Push;
+			sourceTree = "<group>";
+		};
+		BFA318FA1B0DBFB900FFCCD3 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				BFA318E51B0CD3B200FFCCD3 /* MgProductViewController.h */,
+				BFA318E61B0CD3B200FFCCD3 /* MgProductViewController.m */,
+			);
+			name = Product;
 			sourceTree = "<group>";
 		};
 		BFD4BF461AE73BD7005E72A2 = {
@@ -225,7 +348,6 @@
 			isa = PBXGroup;
 			children = (
 				BFD4BF791AE73DC8005E72A2 /* Classes */,
-				BFD4BF7E1AE741B2005E72A2 /* Setting(设置) */,
 				BFD4BF7C1AE73DF2005E72A2 /* Others */,
 				BFD4BF5F1AE73BD8005E72A2 /* Images.xcassets */,
 				BFD4BF521AE73BD7005E72A2 /* Supporting Files */,
@@ -276,6 +398,7 @@
 				BF4BF6221AEBE730007B0B84 /* Buy(合买订单) */,
 				BFD4BF7D1AE74190005E72A2 /* Hall(购买大厅) */,
 				BF4BF6311AECD5F3007B0B84 /* Mine(我的彩票) */,
+				BFD4BF7E1AE741B2005E72A2 /* Setting(设置) */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -297,9 +420,12 @@
 		BFD4BF7C1AE73DF2005E72A2 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				BFA318DC1B0C877000FFCCD3 /* MBProgressHUD */,
 				BF4BF6371AECDADE007B0B84 /* Category(分类) */,
 				BFD4BF5C1AE73BD8005E72A2 /* Main.storyboard */,
 				BFD4BF561AE73BD7005E72A2 /* AppDelegate.h */,
+				BFA318F31B0CE64B00FFCCD3 /* products.json */,
+				BFA318F51B0D728400FFCCD3 /* product_2.json */,
 				BFD4BF571AE73BD8005E72A2 /* AppDelegate.m */,
 				BFD4BF611AE73BD8005E72A2 /* LaunchScreen.xib */,
 			);
@@ -445,8 +571,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA318F61B0D728400FFCCD3 /* product_2.json in Resources */,
 				BFD4BF5E1AE73BD8005E72A2 /* Main.storyboard in Resources */,
 				BFD4BF631AE73BD8005E72A2 /* LaunchScreen.xib in Resources */,
+				BFA318F41B0CE64B00FFCCD3 /* products.json in Resources */,
+				BFA318F21B0CE18300FFCCD3 /* MgProductCell.xib in Resources */,
+				BFA318E31B0C877000FFCCD3 /* MBProgressHUD.bundle in Resources */,
 				BFD4BF8D1AE7CA97005E72A2 /* Info.plist in Resources */,
 				BFD4BF601AE73BD8005E72A2 /* Images.xcassets in Resources */,
 			);
@@ -466,18 +596,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA318F01B0CE10E00FFCCD3 /* MgProductCell.m in Sources */,
 				BF4BF6301AEC8850007B0B84 /* MuBuyViewController.m in Sources */,
+				BFA319061B0DD26500FFCCD3 /* MgSettingLabelItem.m in Sources */,
+				BFA318E21B0C877000FFCCD3 /* MBProgressHUD+MJ.m in Sources */,
+				BFA319091B0DD4C200FFCCD3 /* MgScoreTimeViewController.m in Sources */,
 				BFD4BF901AE7E0F3005E72A2 /* MuNavigationController.m in Sources */,
+				BFA319001B0DCC5A00FFCCD3 /* MgAwardPushViewController.m in Sources */,
+				BFA318FD1B0DC50600FFCCD3 /* MgBaseSettingViewController.m in Sources */,
 				BF4BF6341AECD623007B0B84 /* MuLoginViewController.m in Sources */,
 				BFD4BF881AE742BF005E72A2 /* MuTabBarController.m in Sources */,
 				BFA318CE1B09E42D00FFCCD3 /* MgSettingGroup.m in Sources */,
 				BFA318DB1B0ADFE000FFCCD3 /* MgSettingSwitchItem.m in Sources */,
+				BFA318E41B0C877000FFCCD3 /* MBProgressHUD.m in Sources */,
+				BFA319031B0DCFB600FFCCD3 /* MgAwardAnimViewController.m in Sources */,
+				BFA318E71B0CD3B200FFCCD3 /* MgProductViewController.m in Sources */,
 				BF4BF6281AEBE815007B0B84 /* MuTitleButton.m in Sources */,
 				BFA318C81B0973D600FFCCD3 /* MgSettingItem.m in Sources */,
 				BFD4BF5B1AE73BD8005E72A2 /* ViewController.m in Sources */,
 				BFD4BF581AE73BD8005E72A2 /* AppDelegate.m in Sources */,
 				BFA318CB1B097EF200FFCCD3 /* MgPushNoticeViewController.m in Sources */,
 				BFD4BF551AE73BD7005E72A2 /* main.m in Sources */,
+				BFA318ED1B0CDAA900FFCCD3 /* MgProduct.m in Sources */,
 				BFD4BF841AE74249005E72A2 /* MuTabBar.m in Sources */,
 				BFA318D21B09E6B900FFCCD3 /* MgSettingCell.m in Sources */,
 				BFA318D81B0ADFBE00FFCCD3 /* MgSettingArrowItem.m in Sources */,

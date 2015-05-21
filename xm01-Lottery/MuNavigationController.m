@@ -28,17 +28,17 @@
     NSString *bgName = nil;
     if (iOS7) { // 至少是iOS 7.0
         bgName = @"NavBar64";
-        
+//        navBar.tintColor = [UIColor whiteColor];
     } else { // 非iOS7
         bgName = @"NavBar";
     }
     [navBar setBackgroundImage:[UIImage imageNamed:bgName] forBarMetrics:UIBarMetricsDefault];
     
     // 设置标题颜色
-//    NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
-//    // UITextAttributeTextColor iOS_7
-//    attrs[NSForegroundColorAttributeName] = [UIColor whiteColor];
-//    [navBar setTitleTextAttributes:attrs];
+    NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
+    // UITextAttributeTextColor iOS_7
+    attrs[NSForegroundColorAttributeName] = [UIColor whiteColor];
+    [navBar setTitleTextAttributes:attrs];
     
     
     // 3.设置ItemButton的主题
@@ -50,9 +50,7 @@
     
     
     navBar.tintColor = [UIColor whiteColor];
-    navBar.barTintColor = [UIColor greenColor];
-    
-
+//    navBar.barTintColor = [UIColor greenColor];
 }
 
 // 重写这个方法，就能拦截所有的push操作

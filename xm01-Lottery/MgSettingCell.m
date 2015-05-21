@@ -9,13 +9,15 @@
 #import "MgSettingCell.h"
 #import "MgSettingArrowItem.h"
 #import "MgSettingSwitchItem.h"
+#import "MgSettingLabelItem.h"
 
 @interface MgSettingCell()
 // 箭头
 @property (nonatomic, strong) UIImageView *arrowView;
 // 开关
 @property (nonatomic, strong) UISwitch *switchView;
-
+// 标签
+@property (nonatomic, strong) UILabel *labelView;
 @end
 
 @implementation MgSettingCell
@@ -24,6 +26,17 @@
 //{
 //    
 //}
+- (UILabel *)labelView
+{
+    if (_labelView == nil) {
+        
+        _labelView = [[UILabel alloc] init];
+        _labelView.bounds = CGRectMake(0, 0, 100, 30);
+        _labelView.backgroundColor = [UIColor grayColor];
+    }
+    return _labelView;
+}
+
 - (UIImageView *)arrowView
 {
     if (_arrowView == nil) {
@@ -73,6 +86,8 @@
         self.accessoryView = self.switchView;
         // 设置点击cell没有颜色反应
         self.selectionStyle = UITableViewCellSelectionStyleNone;
+    }else if ([self.item isKindOfClass:[MgSettingLabelItem class]]) { // 标签
+        self.accessoryView = self.labelView;
     } else {
         self.accessoryView = nil;
     }
@@ -81,7 +96,9 @@
 // 设置数据
 -(void)setupData
 {
-    self.imageView.image = [UIImage imageNamed:self.item.icon];
+    if (self.item.icon) {
+        self.imageView.image = [UIImage imageNamed:self.item.icon];
+    }
     self.textLabel.text = self.item.title;
 }
 

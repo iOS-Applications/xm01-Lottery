@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface MgSettingViewController : UITableViewController
-
+#import "MgBaseSettingViewController.h"
+@interface MgSettingViewController : MgBaseSettingViewController
 @end

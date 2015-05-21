@@ -33,6 +33,7 @@
 
 - (IBAction)setting{
     MgSettingViewController *settingVC = [[MgSettingViewController alloc] init];
+//    settingVC.title = @"设置";
     [self.navigationController pushViewController:settingVC animated:YES];
 }
 @end
