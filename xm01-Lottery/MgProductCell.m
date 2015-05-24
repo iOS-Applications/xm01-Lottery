@@ -14,6 +14,7 @@
 @end
 
 @implementation MgProductCell
+
 - (void)awakeFromNib
 {
     // 生成圆角——用图层

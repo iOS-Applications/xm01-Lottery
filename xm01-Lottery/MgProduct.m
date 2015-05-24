@@ -16,6 +16,9 @@
 //        [self setValuesForKeysWithDictionary:dict];
         self.icon = dict[@"icon"];
         self.title = dict[@"title"];
+        self.scheme = dict[@"customUrl"];
+        self.url = dict[@"url"];
+        self.identifier = dict[@"id"];
     }
     return self;
 }

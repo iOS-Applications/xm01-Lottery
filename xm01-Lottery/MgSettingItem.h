@@ -14,9 +14,13 @@ typedef void (^MgSettingItemOption)();
 @property (nonatomic, copy) NSString *icon;
 // 标题
 @property (nonatomic, copy) NSString *title;
+// 子标题
+@property (nonatomic, copy) NSString *subtitle;
+
 // 点击那个cell需要做的什么事情
 @property (nonatomic, copy) MgSettingItemOption option;
 
 //+ (instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title destVcClass:(Class)destVcClass;
 + (instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title;
++ (instancetype)itemWithTitle:(NSString *)title;
 @end

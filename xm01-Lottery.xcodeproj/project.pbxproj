@@ -11,6 +11,7 @@
 		BF4BF6301AEC8850007B0B84 /* MuBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4BF62F1AEC8850007B0B84 /* MuBuyViewController.m */; };
 		BF4BF6341AECD623007B0B84 /* MuLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4BF6331AECD623007B0B84 /* MuLoginViewController.m */; };
 		BF4BF63A1AECDB20007B0B84 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4BF6391AECDB20007B0B84 /* UIImage+Extension.m */; };
+		BF7A52721B11B94E0097F7BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7A52711B11B94E0097F7BC /* Default-568h@2x.png */; };
 		BFA318C31AF7755B00FFCCD3 /* MgSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA318C21AF7755B00FFCCD3 /* MgSettingViewController.m */; };
 		BFA318C81B0973D600FFCCD3 /* MgSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA318C71B0973D600FFCCD3 /* MgSettingItem.m */; };
 		BFA318CB1B097EF200FFCCD3 /* MgPushNoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA318CA1B097EF200FFCCD3 /* MgPushNoticeViewController.m */; };
@@ -32,6 +33,39 @@
 		BFA319031B0DCFB600FFCCD3 /* MgAwardAnimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA319021B0DCFB600FFCCD3 /* MgAwardAnimViewController.m */; };
 		BFA319061B0DD26500FFCCD3 /* MgSettingLabelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA319051B0DD26500FFCCD3 /* MgSettingLabelItem.m */; };
 		BFA319091B0DD4C200FFCCD3 /* MgScoreTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA319081B0DD4C200FFCCD3 /* MgScoreTimeViewController.m */; };
+		BFA3190D1B0E125600FFCCD3 /* MgHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA3190C1B0E125600FFCCD3 /* MgHelpViewController.m */; };
+		BFA3192E1B0E141200FFCCD3 /* bjdc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA319111B0E141200FFCCD3 /* bjdc_howto.html */; };
+		BFA3192F1B0E141200FFCCD3 /* coupon_help.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA319121B0E141200FFCCD3 /* coupon_help.html */; };
+		BFA319301B0E141200FFCCD3 /* credit_help.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA319131B0E141200FFCCD3 /* credit_help.html */; };
+		BFA319311B0E141200FFCCD3 /* dlt_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA319141B0E141200FFCCD3 /* dlt_howto.html */; };
+		BFA319321B0E141200FFCCD3 /* f9_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA319151B0E141200FFCCD3 /* f9_howto.html */; };
+		BFA319331B0E141200FFCCD3 /* gdy11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA319161B0E141200FFCCD3 /* gdy11_howto.html */; };
+		BFA319341B0E141200FFCCD3 /* group_record.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA319171B0E141200FFCCD3 /* group_record.html */; };
+		BFA319351B0E141200FFCCD3 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA319181B0E141200FFCCD3 /* help.html */; };
+		BFA319361B0E141200FFCCD3 /* helpGroupBuy.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA319191B0E141200FFCCD3 /* helpGroupBuy.html */; };
+		BFA319371B0E141200FFCCD3 /* jclq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA3191A1B0E141200FFCCD3 /* jclq_howto.html */; };
+		BFA319381B0E141200FFCCD3 /* jczq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA3191B1B0E141200FFCCD3 /* jczq_howto.html */; };
+		BFA319391B0E141200FFCCD3 /* jxssc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA3191C1B0E141200FFCCD3 /* jxssc_howto.html */; };
+		BFA3193A1B0E141200FFCCD3 /* jxy11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA3191D1B0E141200FFCCD3 /* jxy11_howto.html */; };
+		BFA3193B1B0E141200FFCCD3 /* k2_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA3191E1B0E141200FFCCD3 /* k2_howto.html */; };
+		BFA3193C1B0E141200FFCCD3 /* k3_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA3191F1B0E141200FFCCD3 /* k3_howto.html */; };
+		BFA3193D1B0E141200FFCCD3 /* kl8_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA319201B0E141200FFCCD3 /* kl8_howto.html */; };
+		BFA3193E1B0E141200FFCCD3 /* lk11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA319211B0E141200FFCCD3 /* lk11_howto.html */; };
+		BFA3193F1B0E141200FFCCD3 /* networkconnectedfailed.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA319221B0E141200FFCCD3 /* networkconnectedfailed.html */; };
+		BFA319401B0E141200FFCCD3 /* pl3_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA319231B0E141200FFCCD3 /* pl3_howto.html */; };
+		BFA319411B0E141200FFCCD3 /* pl5_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA319241B0E141200FFCCD3 /* pl5_howto.html */; };
+		BFA319421B0E141200FFCCD3 /* qlc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA319251B0E141200FFCCD3 /* qlc_howto.html */; };
+		BFA319431B0E141200FFCCD3 /* qxc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA319261B0E141200FFCCD3 /* qxc_howto.html */; };
+		BFA319441B0E141200FFCCD3 /* rule.css in Resources */ = {isa = PBXBuildFile; fileRef = BFA319271B0E141200FFCCD3 /* rule.css */; };
+		BFA319451B0E141200FFCCD3 /* sfc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA319281B0E141200FFCCD3 /* sfc_howto.html */; };
+		BFA319461B0E141200FFCCD3 /* ssc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA319291B0E141200FFCCD3 /* ssc_howto.html */; };
+		BFA319471B0E141200FFCCD3 /* ssq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA3192A1B0E141200FFCCD3 /* ssq_howto.html */; };
+		BFA319481B0E141200FFCCD3 /* x3d_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA3192B1B0E141200FFCCD3 /* x3d_howto.html */; };
+		BFA319491B0E141200FFCCD3 /* y11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA3192C1B0E141200FFCCD3 /* y11_howto.html */; };
+		BFA3194A1B0E141200FFCCD3 /* znzh.html in Resources */ = {isa = PBXBuildFile; fileRef = BFA3192D1B0E141200FFCCD3 /* znzh.html */; };
+		BFA3194D1B0E14CA00FFCCD3 /* MgHtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA3194C1B0E14CA00FFCCD3 /* MgHtmlViewController.m */; };
+		BFA3194F1B0E1C4400FFCCD3 /* help.json in Resources */ = {isa = PBXBuildFile; fileRef = BFA3194E1B0E1C4400FFCCD3 /* help.json */; };
+		BFA319531B0E1CBA00FFCCD3 /* MgHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA319521B0E1CBA00FFCCD3 /* MgHtml.m */; };
 		BFD4BF551AE73BD7005E72A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD4BF541AE73BD7005E72A2 /* main.m */; };
 		BFD4BF581AE73BD8005E72A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD4BF571AE73BD8005E72A2 /* AppDelegate.m */; };
 		BFD4BF5B1AE73BD8005E72A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD4BF5A1AE73BD8005E72A2 /* ViewController.m */; };
@@ -44,6 +78,8 @@
 		BFD4BF8B1AE77BE0005E72A2 /* MuTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD4BF8A1AE77BE0005E72A2 /* MuTabBarButton.m */; };
 		BFD4BF8D1AE7CA97005E72A2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFD4BF8C1AE7CA97005E72A2 /* Info.plist */; };
 		BFD4BF901AE7E0F3005E72A2 /* MuNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD4BF8F1AE7E0F3005E72A2 /* MuNavigationController.m */; };
+		BFF9FD7E1B1072D000CDB9E9 /* MgShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF9FD7D1B1072D000CDB9E9 /* MgShareViewController.m */; };
+		BFF9FD821B10811A00CDB9E9 /* MgAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF9FD811B10811A00CDB9E9 /* MgAboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +102,7 @@
 		BF4BF6331AECD623007B0B84 /* MuLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuLoginViewController.m; sourceTree = "<group>"; };
 		BF4BF6381AECDB20007B0B84 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
 		BF4BF6391AECDB20007B0B84 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		BF7A52711B11B94E0097F7BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BFA318C11AF7755B00FFCCD3 /* MgSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MgSettingViewController.h; sourceTree = "<group>"; };
 		BFA318C21AF7755B00FFCCD3 /* MgSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgSettingViewController.m; sourceTree = "<group>"; };
 		BFA318C61B0973D600FFCCD3 /* MgSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MgSettingItem.h; sourceTree = "<group>"; };
@@ -104,6 +141,42 @@
 		BFA319051B0DD26500FFCCD3 /* MgSettingLabelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgSettingLabelItem.m; sourceTree = "<group>"; };
 		BFA319071B0DD4C200FFCCD3 /* MgScoreTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MgScoreTimeViewController.h; sourceTree = "<group>"; };
 		BFA319081B0DD4C200FFCCD3 /* MgScoreTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgScoreTimeViewController.m; sourceTree = "<group>"; };
+		BFA3190B1B0E125600FFCCD3 /* MgHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MgHelpViewController.h; sourceTree = "<group>"; };
+		BFA3190C1B0E125600FFCCD3 /* MgHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgHelpViewController.m; sourceTree = "<group>"; };
+		BFA319111B0E141200FFCCD3 /* bjdc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bjdc_howto.html; sourceTree = "<group>"; };
+		BFA319121B0E141200FFCCD3 /* coupon_help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = coupon_help.html; sourceTree = "<group>"; };
+		BFA319131B0E141200FFCCD3 /* credit_help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = credit_help.html; sourceTree = "<group>"; };
+		BFA319141B0E141200FFCCD3 /* dlt_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dlt_howto.html; sourceTree = "<group>"; };
+		BFA319151B0E141200FFCCD3 /* f9_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = f9_howto.html; sourceTree = "<group>"; };
+		BFA319161B0E141200FFCCD3 /* gdy11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = gdy11_howto.html; sourceTree = "<group>"; };
+		BFA319171B0E141200FFCCD3 /* group_record.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = group_record.html; sourceTree = "<group>"; };
+		BFA319181B0E141200FFCCD3 /* help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = help.html; sourceTree = "<group>"; };
+		BFA319191B0E141200FFCCD3 /* helpGroupBuy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = helpGroupBuy.html; sourceTree = "<group>"; };
+		BFA3191A1B0E141200FFCCD3 /* jclq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jclq_howto.html; sourceTree = "<group>"; };
+		BFA3191B1B0E141200FFCCD3 /* jczq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jczq_howto.html; sourceTree = "<group>"; };
+		BFA3191C1B0E141200FFCCD3 /* jxssc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jxssc_howto.html; sourceTree = "<group>"; };
+		BFA3191D1B0E141200FFCCD3 /* jxy11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jxy11_howto.html; sourceTree = "<group>"; };
+		BFA3191E1B0E141200FFCCD3 /* k2_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = k2_howto.html; sourceTree = "<group>"; };
+		BFA3191F1B0E141200FFCCD3 /* k3_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = k3_howto.html; sourceTree = "<group>"; };
+		BFA319201B0E141200FFCCD3 /* kl8_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = kl8_howto.html; sourceTree = "<group>"; };
+		BFA319211B0E141200FFCCD3 /* lk11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = lk11_howto.html; sourceTree = "<group>"; };
+		BFA319221B0E141200FFCCD3 /* networkconnectedfailed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = networkconnectedfailed.html; sourceTree = "<group>"; };
+		BFA319231B0E141200FFCCD3 /* pl3_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pl3_howto.html; sourceTree = "<group>"; };
+		BFA319241B0E141200FFCCD3 /* pl5_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pl5_howto.html; sourceTree = "<group>"; };
+		BFA319251B0E141200FFCCD3 /* qlc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = qlc_howto.html; sourceTree = "<group>"; };
+		BFA319261B0E141200FFCCD3 /* qxc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = qxc_howto.html; sourceTree = "<group>"; };
+		BFA319271B0E141200FFCCD3 /* rule.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = rule.css; sourceTree = "<group>"; };
+		BFA319281B0E141200FFCCD3 /* sfc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sfc_howto.html; sourceTree = "<group>"; };
+		BFA319291B0E141200FFCCD3 /* ssc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ssc_howto.html; sourceTree = "<group>"; };
+		BFA3192A1B0E141200FFCCD3 /* ssq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ssq_howto.html; sourceTree = "<group>"; };
+		BFA3192B1B0E141200FFCCD3 /* x3d_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = x3d_howto.html; sourceTree = "<group>"; };
+		BFA3192C1B0E141200FFCCD3 /* y11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = y11_howto.html; sourceTree = "<group>"; };
+		BFA3192D1B0E141200FFCCD3 /* znzh.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = znzh.html; sourceTree = "<group>"; };
+		BFA3194B1B0E14CA00FFCCD3 /* MgHtmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MgHtmlViewController.h; sourceTree = "<group>"; };
+		BFA3194C1B0E14CA00FFCCD3 /* MgHtmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgHtmlViewController.m; sourceTree = "<group>"; };
+		BFA3194E1B0E1C4400FFCCD3 /* help.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = help.json; sourceTree = "<group>"; };
+		BFA319511B0E1CBA00FFCCD3 /* MgHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MgHtml.h; sourceTree = "<group>"; };
+		BFA319521B0E1CBA00FFCCD3 /* MgHtml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgHtml.m; sourceTree = "<group>"; };
 		BFD4BF4F1AE73BD7005E72A2 /* xm01-Lottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xm01-Lottery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD4BF541AE73BD7005E72A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BFD4BF561AE73BD7005E72A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,6 +198,10 @@
 		BFD4BF8C1AE7CA97005E72A2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFD4BF8E1AE7E0F3005E72A2 /* MuNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuNavigationController.h; sourceTree = "<group>"; };
 		BFD4BF8F1AE7E0F3005E72A2 /* MuNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuNavigationController.m; sourceTree = "<group>"; };
+		BFF9FD7C1B1072D000CDB9E9 /* MgShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MgShareViewController.h; sourceTree = "<group>"; };
+		BFF9FD7D1B1072D000CDB9E9 /* MgShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgShareViewController.m; sourceTree = "<group>"; };
+		BFF9FD801B10811A00CDB9E9 /* MgAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MgAboutViewController.h; sourceTree = "<group>"; };
+		BFF9FD811B10811A00CDB9E9 /* MgAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MgAboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,12 +286,12 @@
 		BFA318C01AF7752500FFCCD3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BFA3190E1B0E137600FFCCD3 /* Setting */,
+				BFA3190A1B0E123F00FFCCD3 /* Help */,
 				BFA318FA1B0DBFB900FFCCD3 /* Product */,
 				BFA318F91B0DBFB000FFCCD3 /* Push */,
-				BFA318C11AF7755B00FFCCD3 /* MgSettingViewController.h */,
-				BFA318C21AF7755B00FFCCD3 /* MgSettingViewController.m */,
-				BFA318FB1B0DC50600FFCCD3 /* MgBaseSettingViewController.h */,
-				BFA318FC1B0DC50600FFCCD3 /* MgBaseSettingViewController.m */,
+				BFF9FD7B1B1072A600CDB9E9 /* Share */,
+				BFF9FD7F1B10810700CDB9E9 /* About */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -222,6 +299,7 @@
 		BFA318C51B09739D00FFCCD3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BFA319501B0E1C6E00FFCCD3 /* Help */,
 				BFA318E81B0CDA6700FFCCD3 /* Item */,
 				BFA318E91B0CDA7700FFCCD3 /* Group */,
 				BFA318EA1B0CDA8B00FFCCD3 /* Product */,
@@ -326,9 +404,85 @@
 			name = Product;
 			sourceTree = "<group>";
 		};
+		BFA3190A1B0E123F00FFCCD3 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				BFA3190B1B0E125600FFCCD3 /* MgHelpViewController.h */,
+				BFA3190C1B0E125600FFCCD3 /* MgHelpViewController.m */,
+				BFA3194B1B0E14CA00FFCCD3 /* MgHtmlViewController.h */,
+				BFA3194C1B0E14CA00FFCCD3 /* MgHtmlViewController.m */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+		BFA3190E1B0E137600FFCCD3 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				BFA318C11AF7755B00FFCCD3 /* MgSettingViewController.h */,
+				BFA318C21AF7755B00FFCCD3 /* MgSettingViewController.m */,
+				BFA318FB1B0DC50600FFCCD3 /* MgBaseSettingViewController.h */,
+				BFA318FC1B0DC50600FFCCD3 /* MgBaseSettingViewController.m */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		BFA3190F1B0E140600FFCCD3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BFA319101B0E141200FFCCD3 /* Html */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		BFA319101B0E141200FFCCD3 /* Html */ = {
+			isa = PBXGroup;
+			children = (
+				BFA319111B0E141200FFCCD3 /* bjdc_howto.html */,
+				BFA319121B0E141200FFCCD3 /* coupon_help.html */,
+				BFA319131B0E141200FFCCD3 /* credit_help.html */,
+				BFA319141B0E141200FFCCD3 /* dlt_howto.html */,
+				BFA319151B0E141200FFCCD3 /* f9_howto.html */,
+				BFA319161B0E141200FFCCD3 /* gdy11_howto.html */,
+				BFA319171B0E141200FFCCD3 /* group_record.html */,
+				BFA319181B0E141200FFCCD3 /* help.html */,
+				BFA319191B0E141200FFCCD3 /* helpGroupBuy.html */,
+				BFA3191A1B0E141200FFCCD3 /* jclq_howto.html */,
+				BFA3191B1B0E141200FFCCD3 /* jczq_howto.html */,
+				BFA3191C1B0E141200FFCCD3 /* jxssc_howto.html */,
+				BFA3191D1B0E141200FFCCD3 /* jxy11_howto.html */,
+				BFA3191E1B0E141200FFCCD3 /* k2_howto.html */,
+				BFA3191F1B0E141200FFCCD3 /* k3_howto.html */,
+				BFA319201B0E141200FFCCD3 /* kl8_howto.html */,
+				BFA319211B0E141200FFCCD3 /* lk11_howto.html */,
+				BFA319221B0E141200FFCCD3 /* networkconnectedfailed.html */,
+				BFA319231B0E141200FFCCD3 /* pl3_howto.html */,
+				BFA319241B0E141200FFCCD3 /* pl5_howto.html */,
+				BFA319251B0E141200FFCCD3 /* qlc_howto.html */,
+				BFA319261B0E141200FFCCD3 /* qxc_howto.html */,
+				BFA319271B0E141200FFCCD3 /* rule.css */,
+				BFA319281B0E141200FFCCD3 /* sfc_howto.html */,
+				BFA319291B0E141200FFCCD3 /* ssc_howto.html */,
+				BFA3192A1B0E141200FFCCD3 /* ssq_howto.html */,
+				BFA3192B1B0E141200FFCCD3 /* x3d_howto.html */,
+				BFA3192C1B0E141200FFCCD3 /* y11_howto.html */,
+				BFA3192D1B0E141200FFCCD3 /* znzh.html */,
+			);
+			path = Html;
+			sourceTree = "<group>";
+		};
+		BFA319501B0E1C6E00FFCCD3 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				BFA319511B0E1CBA00FFCCD3 /* MgHtml.h */,
+				BFA319521B0E1CBA00FFCCD3 /* MgHtml.m */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
 		BFD4BF461AE73BD7005E72A2 = {
 			isa = PBXGroup;
 			children = (
+				BF7A52711B11B94E0097F7BC /* Default-568h@2x.png */,
 				BFD4BF511AE73BD7005E72A2 /* xm01-Lottery */,
 				BFD4BF6B1AE73BD8005E72A2 /* xm01-LotteryTests */,
 				BFD4BF501AE73BD7005E72A2 /* Products */,
@@ -420,9 +574,11 @@
 		BFD4BF7C1AE73DF2005E72A2 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				BFA3190F1B0E140600FFCCD3 /* Data */,
 				BFA318DC1B0C877000FFCCD3 /* MBProgressHUD */,
 				BF4BF6371AECDADE007B0B84 /* Category(分类) */,
 				BFD4BF5C1AE73BD8005E72A2 /* Main.storyboard */,
+				BFA3194E1B0E1C4400FFCCD3 /* help.json */,
 				BFD4BF561AE73BD7005E72A2 /* AppDelegate.h */,
 				BFA318F31B0CE64B00FFCCD3 /* products.json */,
 				BFA318F51B0D728400FFCCD3 /* product_2.json */,
@@ -489,6 +645,24 @@
 				BFD4BF8F1AE7E0F3005E72A2 /* MuNavigationController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		BFF9FD7B1B1072A600CDB9E9 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				BFF9FD7C1B1072D000CDB9E9 /* MgShareViewController.h */,
+				BFF9FD7D1B1072D000CDB9E9 /* MgShareViewController.m */,
+			);
+			name = Share;
+			sourceTree = "<group>";
+		};
+		BFF9FD7F1B10810700CDB9E9 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				BFF9FD801B10811A00CDB9E9 /* MgAboutViewController.h */,
+				BFF9FD811B10811A00CDB9E9 /* MgAboutViewController.m */,
+			);
+			name = About;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -572,13 +746,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFA318F61B0D728400FFCCD3 /* product_2.json in Resources */,
+				BFA319311B0E141200FFCCD3 /* dlt_howto.html in Resources */,
+				BFA3193E1B0E141200FFCCD3 /* lk11_howto.html in Resources */,
 				BFD4BF5E1AE73BD8005E72A2 /* Main.storyboard in Resources */,
 				BFD4BF631AE73BD8005E72A2 /* LaunchScreen.xib in Resources */,
+				BFA319381B0E141200FFCCD3 /* jczq_howto.html in Resources */,
+				BFA319461B0E141200FFCCD3 /* ssc_howto.html in Resources */,
+				BFA3192E1B0E141200FFCCD3 /* bjdc_howto.html in Resources */,
+				BFA319481B0E141200FFCCD3 /* x3d_howto.html in Resources */,
+				BFA319351B0E141200FFCCD3 /* help.html in Resources */,
+				BFA319341B0E141200FFCCD3 /* group_record.html in Resources */,
+				BFA3193D1B0E141200FFCCD3 /* kl8_howto.html in Resources */,
+				BFA319411B0E141200FFCCD3 /* pl5_howto.html in Resources */,
 				BFA318F41B0CE64B00FFCCD3 /* products.json in Resources */,
+				BFA319371B0E141200FFCCD3 /* jclq_howto.html in Resources */,
+				BFA319441B0E141200FFCCD3 /* rule.css in Resources */,
+				BFA3194F1B0E1C4400FFCCD3 /* help.json in Resources */,
+				BFA319391B0E141200FFCCD3 /* jxssc_howto.html in Resources */,
 				BFA318F21B0CE18300FFCCD3 /* MgProductCell.xib in Resources */,
 				BFA318E31B0C877000FFCCD3 /* MBProgressHUD.bundle in Resources */,
 				BFD4BF8D1AE7CA97005E72A2 /* Info.plist in Resources */,
+				BFA319401B0E141200FFCCD3 /* pl3_howto.html in Resources */,
+				BFA319321B0E141200FFCCD3 /* f9_howto.html in Resources */,
+				BFA3193C1B0E141200FFCCD3 /* k3_howto.html in Resources */,
+				BFA319301B0E141200FFCCD3 /* credit_help.html in Resources */,
+				BFA319331B0E141200FFCCD3 /* gdy11_howto.html in Resources */,
 				BFD4BF601AE73BD8005E72A2 /* Images.xcassets in Resources */,
+				BFA3193A1B0E141200FFCCD3 /* jxy11_howto.html in Resources */,
+				BFA3193F1B0E141200FFCCD3 /* networkconnectedfailed.html in Resources */,
+				BFA319421B0E141200FFCCD3 /* qlc_howto.html in Resources */,
+				BFA3193B1B0E141200FFCCD3 /* k2_howto.html in Resources */,
+				BFA319431B0E141200FFCCD3 /* qxc_howto.html in Resources */,
+				BFA3194A1B0E141200FFCCD3 /* znzh.html in Resources */,
+				BFA319471B0E141200FFCCD3 /* ssq_howto.html in Resources */,
+				BFA319491B0E141200FFCCD3 /* y11_howto.html in Resources */,
+				BF7A52721B11B94E0097F7BC /* Default-568h@2x.png in Resources */,
+				BFA319451B0E141200FFCCD3 /* sfc_howto.html in Resources */,
+				BFA3192F1B0E141200FFCCD3 /* coupon_help.html in Resources */,
+				BFA319361B0E141200FFCCD3 /* helpGroupBuy.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,6 +810,7 @@
 				BFA319001B0DCC5A00FFCCD3 /* MgAwardPushViewController.m in Sources */,
 				BFA318FD1B0DC50600FFCCD3 /* MgBaseSettingViewController.m in Sources */,
 				BF4BF6341AECD623007B0B84 /* MuLoginViewController.m in Sources */,
+				BFA319531B0E1CBA00FFCCD3 /* MgHtml.m in Sources */,
 				BFD4BF881AE742BF005E72A2 /* MuTabBarController.m in Sources */,
 				BFA318CE1B09E42D00FFCCD3 /* MgSettingGroup.m in Sources */,
 				BFA318DB1B0ADFE000FFCCD3 /* MgSettingSwitchItem.m in Sources */,
@@ -615,8 +821,12 @@
 				BFA318C81B0973D600FFCCD3 /* MgSettingItem.m in Sources */,
 				BFD4BF5B1AE73BD8005E72A2 /* ViewController.m in Sources */,
 				BFD4BF581AE73BD8005E72A2 /* AppDelegate.m in Sources */,
+				BFA3194D1B0E14CA00FFCCD3 /* MgHtmlViewController.m in Sources */,
 				BFA318CB1B097EF200FFCCD3 /* MgPushNoticeViewController.m in Sources */,
+				BFA3190D1B0E125600FFCCD3 /* MgHelpViewController.m in Sources */,
 				BFD4BF551AE73BD7005E72A2 /* main.m in Sources */,
+				BFF9FD7E1B1072D000CDB9E9 /* MgShareViewController.m in Sources */,
+				BFF9FD821B10811A00CDB9E9 /* MgAboutViewController.m in Sources */,
 				BFA318ED1B0CDAA900FFCCD3 /* MgProduct.m in Sources */,
 				BFD4BF841AE74249005E72A2 /* MuTabBar.m in Sources */,
 				BFA318D21B09E6B900FFCCD3 /* MgSettingCell.m in Sources */,

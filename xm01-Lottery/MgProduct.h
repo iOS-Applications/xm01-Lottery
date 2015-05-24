@@ -20,7 +20,9 @@
 
 @property (nonatomic, copy) NSString *icon;
 @property (nonatomic, copy) NSString *title;
-
+@property (nonatomic, copy) NSString *scheme; // 应用的协议头
+@property (nonatomic, copy) NSString *url; // 下载应用的URL
+@property (nonatomic, copy) NSString *identifier; // 应用的identifier
 - (instancetype)initWithDict:(NSDictionary *)dict;
 + (instancetype)productWithDict:(NSDictionary *)dict;
 @end

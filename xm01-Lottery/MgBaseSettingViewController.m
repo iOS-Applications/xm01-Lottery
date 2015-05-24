@@ -36,6 +36,12 @@
 {
     return [super initWithStyle:UITableViewStyleGrouped];
 }
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    self.tableView.backgroundView = nil;
+    self.tableView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bg"]];
+}
 
 # pragma mark - Table view data source
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView

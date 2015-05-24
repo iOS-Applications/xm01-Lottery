@@ -14,4 +14,5 @@
 
 // 传递目标控制器，箭头Item需要跳转
 + (instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title destVcClass:(Class)destVcClass;
++ (instancetype)itemWithTitle:(NSString *)title destVcClass:(Class)destVcClass;
 @end

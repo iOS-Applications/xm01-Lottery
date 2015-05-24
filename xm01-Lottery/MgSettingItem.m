@@ -19,5 +19,9 @@
     
     return item;
 }
++ (instancetype)itemWithTitle:(NSString *)title
+{
+    return [self itemWithIcon:nil title:title];
+}
 
 @end

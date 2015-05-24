@@ -16,4 +16,9 @@
     item.destVcClass = destVcClass;
     return item;
 }
+
++ (instancetype)itemWithTitle:(NSString *)title destVcClass:(Class)destVcClass
+{
+    return [self itemWithIcon:nil title:title destVcClass:destVcClass];
+}
 @end

@@ -99,6 +99,15 @@
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     MgProduct *product = self.products[indexPath.item];
-//    NSLog(@"------%@", product.title);
+    NSURL *custonUrl = [NSURL URLWithString:[NSString stringWithFormat:@"%@://%@",product.scheme, product.identifier]];
+    UIApplication *app = [UIApplication sharedApplication];
+    
+    if ([app canOpenURL:custonUrl]) { // 有安装应用
+        // 打开应用
+        [app openURL:custonUrl];
+    } else { // 没有安装应用
+        // 打开AppStore
+        [app openURL:[NSURL URLWithString:product.url]];
+    }
 }
 @end
